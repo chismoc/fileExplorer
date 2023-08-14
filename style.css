@@ -1,0 +1,30 @@
+
+/*breadcrumb*/
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.breadcrumb{
+  background: linear-gradient(#F8F594, #D5D533);
+  background: -webkit-linear-gradient(#F8F594, #D5D533);
+  background: -o-linear-gradient(#F8F594, #D5D533);
+  background: -moz-linear-gradient(#F8F594, #D5D533);
+  border-radius: 0;
+}
+.breadcrumb .breadcrumb-item,a{
+text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color:#5d12e7;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;
+}
+.breadcrumb li:hover, a:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: #B314DB;
+}
